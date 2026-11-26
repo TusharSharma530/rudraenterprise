@@ -240,7 +240,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product1.jpg" alt="MRF Cricket Bat">
+                        <img src="assets/ball2.webp" alt="MRF Cricket Bat">
                     </div>
 
                     <div class="product-content">
@@ -273,7 +273,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product2.jpg" alt="Adidas Shoes">
+                        <img src="assets/gloves2.webp" alt="Adidas Shoes">
                     </div>
 
                     <div class="product-content">
@@ -306,7 +306,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product3.jpg" alt="SG Gloves">
+                        <img src="assets/shoes2.webp" alt="SG Gloves">
                     </div>
 
                     <div class="product-content">
@@ -339,7 +339,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product4.jpg" alt="SS Cricket Bat">
+                        <img src="assets/shoes.webp" alt="SS Cricket Bat">
                     </div>
 
                     <div class="product-content">
@@ -372,7 +372,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product5.jpg" alt="Cricket Pads">
+                        <img src="assets/battingleg.webp" alt="Cricket Pads">
                     </div>
 
                     <div class="product-content">
@@ -405,7 +405,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product6.jpg" alt="Cricket Kit Bag">
+                        <img src="assets/customize1.webp" alt="Cricket Kit Bag">
                     </div>
 
                     <div class="product-content">
@@ -438,7 +438,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product7.jpg" alt="Cricket Ball">
+                        <img src="assets/battingleg.webp" alt="Cricket Ball">
                     </div>
 
                     <div class="product-content">
@@ -471,7 +471,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/product8.jpg" alt="Cricket Helmet">
+                        <img src="assets/helmet.webp" alt="Cricket Helmet">
                     </div>
 
                     <div class="product-content">
@@ -500,6 +500,9 @@
                 </div>
             </div>
 
+        </div>
+        <div class="viwallbtn">
+            <button>VIEW ALL</button>
         </div>
     </div>
 </div>

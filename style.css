@@ -470,7 +470,7 @@
 .product-content h3 {
     font-size: 17px;
     font-weight: 700;
-    color: #e53935;
+    color: var(--tag-color);
     margin: 0 0 8px;
 }
 
@@ -528,7 +528,7 @@
 }
 
 .stock-label {
-    color: #3c4ea2;
+    color: var(--theme-color);
     font-size: 12px;
     font-weight: 700;
 }
@@ -545,51 +545,14 @@
     font-size: 16px;
 }
 
-/* Responsive */
-@media (max-width: 576px) {
-
-    .featuredproducts {
-        padding: 25px 0;
-    }
-
-    .featuredproducts h1 {
-        font-size: 21px;
-    }
-
-    .product-image {
-        height: 130px;
-        padding: 7px;
-    }
-
-    .product-content {
-        padding: 9px;
-    }
-
-    .product-content h3 {
-        font-size: 14px;
-    }
-
-    .product-description {
-        font-size: 11px;
-        line-height: 16px;
-    }
-
-    .product-price strong {
-        font-size: 13px;
-    }
-
-    .product-price del {
-        font-size: 10px;
-        margin-left: 2px;
-    }
-
-    .save-label {
-        font-size: 9px;
-        padding: 4px;
-    }
-
-    .stock-label,
-    .product-bottom a {
-        font-size: 10px;
-    }
+.viwallbtn{
+    padding: 10px;
+    text-align: center;
+}
+.viwallbtn button{
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    color: white;
+    padding: 6px 9px;
+    font-size: 15px;
 }
