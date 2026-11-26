@@ -16,19 +16,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="topheader">
+<div class="topheader">
     <div class="container">
-     <div class="topheaderemail">
-        <div>
+        <div class="topheaderemail">
+
+
+            <div class="contact-item">
                 <i class="bi bi-envelope-fill bookicon"></i>
-            
-        </div>
-            <div>
-            <a href="javascript:">
-            <h1 class="head"> E-mail Us :</h1>
-            <p>test@gmail.com</p> </a>
+                <a href="mailto:test@gmail.com">
+                    <h1 class="head">E-mail Us :</h1>
+                    <p>test@gmail.com</p>
+                </a>
             </div>
+
+    
+            <div class="contact-item">
+                <i class="bi bi-telephone-fill bookicon"></i>
+                <a href="tel:+919876543210">
+                    <h1 class="head">Call Us :</h1>
+                    <p>+91 98765 43210</p>
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="javascript:" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="javascript:" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="javascript:" target="_blank"><i class="bi bi-youtube"></i></a>
+            </div>
+
+        </div>
     </div>
+</div>
+<div class="bottomheader">
+    <div class="container">
+        <img src="assets/logo.jpeg">
     </div>
 </div>
 </body>
