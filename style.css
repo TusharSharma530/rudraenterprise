@@ -557,3 +557,8 @@
     padding: 6px 9px;
     font-size: 15px;
 }
+.brandsection h1{
+    font-size: 24px;
+    color:var(--theme-color);
+    font-weight: 700;
+}

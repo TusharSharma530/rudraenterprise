@@ -507,4 +507,12 @@
     </div>
 </div>
 
+<div class="brandsection">
+    <div class="container">
+        <h1>SHOP BY BRAND SECTION</h1>
+        <P>Every major cricket brand , 100% original</P>
+    </div>
+</div>
+
+
 </body>
