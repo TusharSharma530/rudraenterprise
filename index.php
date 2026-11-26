@@ -246,7 +246,7 @@
                     <div class="product-content">
                         <h3>MRF</h3>
 
-                        <p class="product-description">
+                        <p>
                             MRF Genius Grand Edition English Willow Cricket Bat
                             designed for professional players.
                         </p>
@@ -279,7 +279,7 @@
                     <div class="product-content">
                         <h3>ADIDAS</h3>
 
-                        <p class="product-description">
+                        <p>
                             Adidas Cricket Shoes with comfortable grip and
                             lightweight design for players.
                         </p>
@@ -312,7 +312,7 @@
                     <div class="product-content">
                         <h3>SG</h3>
 
-                        <p class="product-description">
+                        <p>
                             SG Cricket Batting Gloves with premium quality
                             protection and comfortable fitting.
                         </p>
@@ -345,7 +345,7 @@
                     <div class="product-content">
                         <h3>SS</h3>
 
-                        <p class="product-description">
+                        <p>
                             SS Ton English Willow Cricket Bat with excellent
                             balance and powerful stroke performance.
                         </p>
@@ -378,7 +378,7 @@
                     <div class="product-content">
                         <h3>KOOKABURRA</h3>
 
-                        <p class="product-description">
+                        <p>
                             Premium cricket batting pads offering lightweight
                             comfort and excellent protection.
                         </p>
@@ -411,7 +411,7 @@
                     <div class="product-content">
                         <h3>SG</h3>
 
-                        <p class="product-description">
+                        <p>
                             Spacious cricket kit bag with multiple compartments
                             for easy equipment storage.
                         </p>
@@ -444,7 +444,7 @@
                     <div class="product-content">
                         <h3>DUKES</h3>
 
-                        <p class="product-description">
+                        <p>
                             Professional quality leather cricket ball for
                             practice and competitive matches.
                         </p>
@@ -477,7 +477,7 @@
                     <div class="product-content">
                         <h3>SHREY</h3>
 
-                        <p class="product-description">
+                        <p>
                             High quality cricket helmet with comfortable
                             padding and protective face guard.
                         </p>
