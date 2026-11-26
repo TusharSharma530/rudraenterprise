@@ -49,7 +49,46 @@
 </div>
 <div class="bottomheader">
     <div class="container">
-        <img src="assets/logo.jpeg">
+        <div class="bottomheader-inner">
+
+            <!-- Logo and Website Name -->
+            <div class="logo-section">
+                <img src="assets/logo.jpeg" alt="Logo">
+
+                <div class="logo-text">
+                    <h2>RUDRAENTERPRISE.COM</h2>
+                    <p>I am a Cricketer</p>
+                </div>
+            </div>
+
+            <div class="header-search">
+                <input type="text" placeholder="Search here...">
+                <button type="button">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+ 
+            <div class="header-enquiry">
+                <a href="#enquiry">Enquiry Now</a>
+            </div>
+
+        </div>
+        <div class="menucontainer">
+            <a href="javascript:">BATS </a>
+            <a href="javascript:">PLAYER GRADE BTS </a>
+            <a href="javascript:">KITBAGS </a>
+             <a href="javascript:">TEAMWEAR </a>
+              <a href="javascript:">BALLS </a>
+               <a href="javascript:">SHOES </a>
+                <a href="javascript:">ACCESSORIES </a>
+                 <a href="javascript:">KITS </a>
+                 <a href="javascript:">STORES </a>
+
+        </div>
     </div>
+</div>
+<div class="bannersection">
+    <img src="assets/banner.png">
 </div>
 </body>
