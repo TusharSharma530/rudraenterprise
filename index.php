@@ -53,12 +53,14 @@
 
             <!-- Logo and Website Name -->
             <div class="logo-section">
-                <img src="assets/logo.jpeg" >
+                <a href="index.php" class="logo-link">
+                    <img src="assets/logo.jpeg" alt="Rudra Enterprise">
 
-                <div class="logo-text">
-                    <h2>RUDRAENTERPRISE.COM</h2>
-                    <p>I am a Cricketer</p>
-                </div>
+                    <div class="logo-text">
+                        <h2>RUDRAENTERPRISE.COM</h2>
+                        <p>I am a Cricketer</p>
+                    </div>
+                </a>
             </div>
 
             <div class="header-search">
@@ -116,8 +118,14 @@
 <div class="gearupsection">
     <div class="container">
 
-        <h1>GEAR UP FOR THE SEASON</h1>
-        <p>Start with a category</p>
+        <div class="gear-head">
+            <div class="gear-head-left">
+                <span class="gear-bar"></span>
+                <h1>GEAR UP FOR THE SEASON</h1>
+                <p>Start with a category</p>
+            </div>
+            <a href="#" class="gear-shop-all">SHOP EVERYTHING</a>
+        </div>
 
         <div class="row g-4">
 
@@ -131,7 +139,7 @@
                             <h2>BATS</h2>
                             <p>439 Products</p>
                         </div>
-                      
+                        <a href="#" class="gear-shop-bats">SHOP BATS</a>
                     </div>
                 </div>
             </div>
@@ -232,7 +240,10 @@
 <div class="featuredproducts">
     <div class="container">
 
-        <h1>FEATURED PRODUCTS</h1>
+        <div class="featured-head">
+            <span class="gear-bar"></span>
+            <h1>FEATURED PRODUCTS</h1>
+        </div>
 
         <div class="row g-4">
 
@@ -507,8 +518,58 @@
     </div>
 </div>
 
+<!-- TRUST / FEATURES STRIP -->
+<div class="featurestrip">
+    <div class="container">
+        <div class="featurestrip-row">
+
+            <div class="featurestrip-item">
+                <i class="bi bi-truck"></i>
+                <div class="featurestrip-text">
+                    <h3>Fast dispatch from our warehouse</h3>
+                    <p>Pan India and worldwide shipping</p>
+                </div>
+            </div>
+
+            <div class="featurestrip-item">
+                <i class="bi bi-shield-check"></i>
+                <div class="featurestrip-text">
+                    <h3>100% authentic brands</h3>
+                    <p>Authorised dealer, no counterfeits</p>
+                </div>
+            </div>
+
+            <div class="featurestrip-item">
+                <i class="bi bi-star"></i>
+                <div class="featurestrip-text">
+                    <h3>Trusted by 10,000+ cricketers</h3>
+                    <p>Rated 4.8 out of 5 across platforms</p>
+                </div>
+            </div>
+
+            <div class="featurestrip-item">
+                <i class="bi bi-shop"></i>
+                <div class="featurestrip-text">
+                    <h3>Visit our stores</h3>
+                    <p>7 stores across India, try before you buy</p>
+                </div>
+            </div>
+
+            <div class="featurestrip-item">
+                <i class="bi bi-chat-dots"></i>
+                <div class="featurestrip-text">
+                    <h3>Expert cricket support</h3>
+                    <p>Advice from people who play</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <div class="brandsection">
     <div class="container">
+        <span class="gear-bar"></span>
         <h1>SHOP BY BRAND SECTION</h1>
         <P>Every major cricket brand , 100% original</P>
     </div>
