@@ -13,7 +13,11 @@
     <link href="style.css" rel="stylesheet">
     <script src="slick/slick.min.js" defer></script>
     <script src="js/script.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
 <div class="topheader">
@@ -148,7 +152,7 @@
             <div class="col-lg-8 col-md-8 col-12">
                 <div class="row g-3">
 
-                    <div class="col-lg-4 col-md-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="gear-card">
                             <img src="assets/balls.webp">
                             <div class="gear-card-content">
@@ -161,7 +165,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="gear-card">
                             <img src="assets/cricketbags.webp">
                             <div class="gear-card-content">
@@ -174,7 +178,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="gear-card">
                             <img src="assets/cricketpads.webp">
                             <div class="gear-card-content">
@@ -187,7 +191,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="gear-card">
                             <img src="assets/gloves.webp">
                             <div class="gear-card-content">
@@ -200,7 +204,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="gear-card">
                             <img src="assets/helmet.webp">
                             <div class="gear-card-content">
@@ -213,7 +217,32 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-6">
+                   
+                     <div class="col-lg-3 col-md-6 col-6">
+                        <div class="gear-card">
+                            <img src="assets/shoes.webp">
+                            <div class="gear-card-content">
+                                <div>
+                                    <h3>shoes</h3>
+                                    <p>75 Products</p>
+                                </div>
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 col-6">
+                        <div class="gear-card">
+                            <img src="assets/shoes.webp">
+                            <div class="gear-card-content">
+                                <div>
+                                    <h3>shoes</h3>
+                                    <p>75 Products</p>
+                                </div>
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="gear-card">
                             <img src="assets/shoes.webp">
                             <div class="gear-card-content">
@@ -245,13 +274,14 @@
             <h1 class="section-title">FEATURED PRODUCTS</h1>
         </div>
 
-        <div class="row g-4">
-
-            <!-- Product 1 -->
+        <div class="row g-4">         
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/ball2.webp" alt="MRF Cricket Bat">
+                        <img src="assets/ballhover.webp" alt="MRF Cricket Bat" class="first-img">
+                        <img src="assets/ball2.webp" alt="MRF Cricket Bat" class="second-img">
+                    
                     </div>
 
                     <div class="product-content">
@@ -277,14 +307,19 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
-            <!-- Product 2 -->
+
+           <!-- Product 2 -->
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/gloves2.webp" alt="Adidas Shoes">
+                        <img src="assets/gloves2.webp" alt="Adidas Shoes" class="first-img">
+
+                        <img src="assets/gloveshover.webp" alt="Adidas Shoes" class="second-img">
                     </div>
 
                     <div class="product-content">
@@ -310,14 +345,17 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
-
             <!-- Product 3 -->
-            <div class="col-lg-3 col-md-6 col-6">
+             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/shoes2.webp" alt="SG Gloves">
+                        <img src="assets/shoes2.webp" alt="SG Gloves" class="first-img">
+
+                        <img src="assets/shoveshover.webp" alt="SG Gloves" class="second-img">
                     </div>
 
                     <div class="product-content">
@@ -343,14 +381,18 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <!-- Product 4 -->
-            <div class="col-lg-3 col-md-6 col-6">
+        <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/shoes.webp" alt="SS Cricket Bat">
+                        <img src="assets/shoes.webp" alt="SS Cricket Bat" class="second-img">
+
+                        <img src="assets/shoveshover.webp" alt="SS Cricket Bat" class="first-img">
                     </div>
 
                     <div class="product-content">
@@ -376,14 +418,19 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <!-- Product 5 -->
+           <!-- Product 5 -->
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/battingleg.webp" alt="Cricket Pads">
+                        <img src="assets/battingleg.webp" alt="Cricket Pads" class="first-img">
+
+                        <img src="assets/padshover.jpg" alt="Cricket Pads" class="second-img">
                     </div>
 
                     <div class="product-content">
@@ -409,14 +456,18 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <!-- Product 6 -->
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/customize1.webp" alt="Cricket Kit Bag">
+                        <img src="assets/customize1.webp" alt="Cricket Kit Bag" class="first-img">
+
+                        <img src="assets/customizehover.webp" alt="Cricket Kit Bag" class="second-img">
                     </div>
 
                     <div class="product-content">
@@ -442,14 +493,18 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <!-- Product 7 -->
-            <div class="col-lg-3 col-md-6 col-6">
+           <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
+
                     <div class="product-image">
-                        <img src="assets/battingleg.webp" alt="Cricket Ball">
+                        <img src="assets/battingleg.webp" alt="Cricket Ball" class="first-img">
+
+                        <img src="assets/padshover.jpg" alt="Cricket Ball" class="second-img">
                     </div>
 
                     <div class="product-content">
@@ -475,41 +530,46 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <!-- Product 8 -->
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="featured-card">
-                    <div class="product-image">
-                        <img src="assets/helmet.webp" alt="Cricket Helmet">
+        <div class="col-lg-3 col-md-6 col-6">
+            <div class="featured-card">
+
+                <div class="product-image">
+                    <img src="assets/helmet.webp" alt="Cricket Helmet" class="first-img">
+
+                    <img src="assets/helmethover.webp" alt="Cricket Helmet" class="second-img">
+                </div>
+
+                <div class="product-content">
+                    <h3>SHREY</h3>
+
+                    <p>
+                        High quality cricket helmet with comfortable
+                        padding and protective face guard.
+                    </p>
+
+                    <div class="product-price">
+                        <div>
+                            <strong>₹3,499</strong>
+                            <del>₹4,099</del>
+                        </div>
+                        <span class="save-label">SAVE 15%</span>
                     </div>
 
-                    <div class="product-content">
-                        <h3>SHREY</h3>
-
-                        <p>
-                            High quality cricket helmet with comfortable
-                            padding and protective face guard.
-                        </p>
-
-                        <div class="product-price">
-                            <div>
-                                <strong>₹3,499</strong>
-                                <del>₹4,099</del>
-                            </div>
-                            <span class="save-label">SAVE 15%</span>
-                        </div>
-
-                        <div class="product-bottom">
-                            <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
+                    <div class="product-bottom">
+                        <span class="stock-label">IN STOCK</span>
+                        <a href="#">
+                            VIEW <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
+
             </div>
+        </div>
 
         </div>
         <div class="viwallbtn">
@@ -597,6 +657,8 @@
     <div>
     </div>
 </div>
+</div>
+
 <div class="featuredproducts">
     <div class="container">
 
@@ -611,17 +673,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/ball2.webp" alt="MRF Cricket Bat">
+                        <img src="assets/ball2.webp" class="first-img" alt="MRF Cricket Bat">
+                        <img src="assets/ballhover.webp" class="second-img" alt="MRF Cricket Bat">
                     </div>
 
                     <div class="product-content">
                         <h3>MRF</h3>
-
-                        <p>
-                            MRF Genius Grand Edition English Willow Cricket Bat
-                            designed for professional players.
-                        </p>
-
+                        <p>MRF Genius Grand Edition English Willow Cricket Bat designed for professional players.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹12,999</strong>
@@ -629,12 +687,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -644,17 +699,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/gloves2.webp" alt="Adidas Shoes">
+                        <img src="assets/gloves2.webp" class="first-img" alt="Adidas Shoes">
+                        <img src="assets/gloveshover.webp" class="second-img" alt="Adidas Shoes">
                     </div>
 
                     <div class="product-content">
                         <h3>ADIDAS</h3>
-
-                        <p>
-                            Adidas Cricket Shoes with comfortable grip and
-                            lightweight design for players.
-                        </p>
-
+                        <p>Adidas Cricket Shoes with comfortable grip and lightweight design for players.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹3,999</strong>
@@ -662,12 +713,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -677,17 +725,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/shoes2.webp" alt="SG Gloves">
+                        <img src="assets/shoes2.webp" class="first-img" alt="SG Gloves">
+                        <img src="assets/shoveshover.webp" class="second-img" alt="SG Gloves">
                     </div>
 
                     <div class="product-content">
                         <h3>SG</h3>
-
-                        <p>
-                            SG Cricket Batting Gloves with premium quality
-                            protection and comfortable fitting.
-                        </p>
-
+                        <p>SG Cricket Batting Gloves with premium quality protection and comfortable fitting.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹1,499</strong>
@@ -695,12 +739,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -710,17 +751,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/shoes.webp" alt="SS Cricket Bat">
+                        <img src="assets/shoes.webp" class="first-img" alt="SS Cricket Bat">
+                        <img src="assets/shoes2.webp" class="second-img" alt="SS Cricket Bat">
                     </div>
 
                     <div class="product-content">
                         <h3>SS</h3>
-
-                        <p>
-                            SS Ton English Willow Cricket Bat with excellent
-                            balance and powerful stroke performance.
-                        </p>
-
+                        <p>SS Ton English Willow Cricket Bat with excellent balance and powerful stroke performance.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹8,999</strong>
@@ -728,12 +765,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -743,17 +777,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/battingleg.webp" alt="Cricket Pads">
+                        <img src="assets/battingleg.webp" class="first-img" alt="Cricket Pads">
+                        <img src="assets/padshover.jpg" class="second-img" alt="Cricket Pads">
                     </div>
 
                     <div class="product-content">
                         <h3>KOOKABURRA</h3>
-
-                        <p>
-                            Premium cricket batting pads offering lightweight
-                            comfort and excellent protection.
-                        </p>
-
+                        <p>Premium cricket batting pads offering lightweight comfort and excellent protection.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹2,499</strong>
@@ -761,12 +791,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -776,17 +803,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/customize1.webp" alt="Cricket Kit Bag">
+                        <img src="assets/customize1.webp" class="first-img" alt="Cricket Kit Bag">
+                        <img src="assets/customizehover.webp" class="second-img" alt="Cricket Kit Bag">
                     </div>
 
                     <div class="product-content">
                         <h3>SG</h3>
-
-                        <p>
-                            Spacious cricket kit bag with multiple compartments
-                            for easy equipment storage.
-                        </p>
-
+                        <p>Spacious cricket kit bag with multiple compartments for easy equipment storage.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹2,999</strong>
@@ -794,12 +817,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -809,17 +829,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/battingleg.webp" alt="Cricket Ball">
+                        <img src="assets/battingleg.webp" class="first-img" alt="Cricket Ball">
+                        <img src="assets/padshover.jpg" class="second-img" alt="Cricket Ball">
                     </div>
 
                     <div class="product-content">
                         <h3>DUKES</h3>
-
-                        <p>
-                            Professional quality leather cricket ball for
-                            practice and competitive matches.
-                        </p>
-
+                        <p>Professional quality leather cricket ball for practice and competitive matches.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹899</strong>
@@ -827,12 +843,9 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -842,17 +855,13 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="featured-card">
                     <div class="product-image">
-                        <img src="assets/helmet.webp" alt="Cricket Helmet">
+                        <img src="assets/helmet.webp" class="first-img" alt="Cricket Helmet">
+                        <img src="assets/helmethover.webp" class="second-img" alt="Cricket Helmet">
                     </div>
 
                     <div class="product-content">
                         <h3>SHREY</h3>
-
-                        <p>
-                            High quality cricket helmet with comfortable
-                            padding and protective face guard.
-                        </p>
-
+                        <p>High quality cricket helmet with comfortable padding and protective face guard.</p>
                         <div class="product-price">
                             <div>
                                 <strong>₹3,499</strong>
@@ -860,23 +869,23 @@
                             </div>
                             <span class="save-label">SAVE 15%</span>
                         </div>
-
                         <div class="product-bottom">
                             <span class="stock-label">IN STOCK</span>
-                            <a href="#">
-                                VIEW <i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a href="#">VIEW <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
+
         <div class="viwallbtn">
             <button>VIEW ALL</button>
         </div>
+
     </div>
 </div>
+
 
 <div class="juniorsection">
     <div class="container">
@@ -1031,14 +1040,199 @@
             </div>
             <a href="#" class="gear-shop-all">VIEW ALL STORES</a>
         </div>
-        <div class="blogcards">
-            <div class="mainblogs">
-                <img src="assets/mainblogs.jpg">
+       
+<div class="blogcards">
+
+    <!-- Left Main Image -->
+    <div class="mainblogs">
+        <img src="assets/blogmain.png" alt="Main Blog">
+    </div>
+
+    <!-- Right Blog Cards -->
+    <div class="bloglist">
+
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="assets/blog1.webp" alt="Blog 1">
             </div>
-            
-            
-       </div>
+
+            <div class="blog-content">
+                <span >15 November 2026</span>
+
+                <h3>Latest Fashion Trends For Every Season</h3>
+
+                <p>
+                    Discover the latest fashion trends and explore
+                    stylish collections that make your everyday look special.
+                </p>
+
+                <a href="#" class="blog-readmore">
+                    READ MORE <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="assets/blog2.webp" alt="Blog 2">
+            </div>
+
+           <div class="blog-content">
+                <span >15 November 2026</span>
+
+                <h3>Latest Fashion Trends For Every Season</h3>
+
+                <p>
+                    Discover the latest fashion trends and explore
+                    stylish collections that make your everyday look special.
+                </p>
+
+                <a href="#" class="blog-readmore">
+                    READ MORE <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="assets/blog3.webp" alt="Blog 3">
+            </div>
+
+           
+<div class="blog-content">
+    <span >15 November 2026</span>
+
+    <h3>Latest Fashion Trends For Every Season</h3>
+
+    <p>
+        Discover the latest fashion trends and explore
+        stylish collections that make your everyday look special.
+    </p>
+
+    <a href="#" class="blog-readmore">
+        READ MORE <span>→</span>
+    </a>
+</div>
+
+        </div>
+
+    </div>
+
+</div>
+
     </div>
 </div>
+
+
+<div class="topfootersection">
+    <div class="container">
+        <div class="topfooter">
+            <div class="featured-head">
+                <h1 class="section-title">NEED HELP CHOOSING?</h1>
+                <h2 class="section-title">TALK TO A CRICKETER.</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="downfootersction">
+    <div class="container">
+
+        <div class="footer-main">
+
+            <!-- Column 1 -->
+            <div class="footer-col footer-about">
+              
+                <h2>RUDRAENTERPRISE</h2>
+                <p>
+                    Cricket only, since 2012. 100% original bats
+                    and gear from every major brand, shipped to
+                    80+ countries.
+                </p>
+
+                <a href="https://wa.me/918699725900">
+                    WhatsApp: +91 86997 25900
+                </a>
+
+                <a href="mailto:contact@cricketershop.com">
+                    contact@cricketershop.com
+                </a>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h3>SHOP</h3>
+                <ul>
+                    <li><a href="#">Bats</a></li>
+                    <li><a href="#">Pads</a></li>
+                    <li><a href="#">Gloves</a></li>
+                    <li><a href="#">Helmets</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Kitbags</a></li>
+                    <li><a href="#">Balls</a></li>
+                    <li><a href="#">Teamwear</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="#">Find a store</a></li>
+                    <li><a href="#">Bat knocking and oiling</a></li>
+                    <li><a href="#">Bat personalisation</a></li>
+                    <li><a href="#">Custom team jerseys</a></li>
+                    <li><a href="#">Custom cricket balls</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-col">
+                <h3>HELP</h3>
+                <ul>
+                    <li><a href="#">Shipping and delivery</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 5 -->
+            <div class="footer-col">
+                <h3>GET TO KNOW US</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Franchise with us</a></li>
+                    <li><a href="#">Business and bulk pricing</a></li>
+                    <li><a href="#">Get sponsorship</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footerstrip">
+    <div class="footer-left">
+    <a>© 2012-2026 Cricketershop</a>
+    <a href="#">Terms and Conditions</a>
+    <a href="#">Privacy Policy</a>
+
+    <span class="companystrip">
+        Design and Develop by
+        <a href="https://promotionparadise.in/" target="_blank">
+            Promotion Paradise
+        </a>
+    </span>
+</div>
+
+    <div class="footer-social">
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
+</div>
+   
+   
+</div>
+</div>
+
 
 </body>
