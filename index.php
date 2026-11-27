@@ -242,7 +242,7 @@
 
         <div class="featured-head">
             <span class="gear-bar"></span>
-            <h1>FEATURED PRODUCTS</h1>
+            <h1 class="section-title">FEATURED PRODUCTS</h1>
         </div>
 
         <div class="row g-4">
@@ -570,7 +570,7 @@
 <div class="brandsection">
     <div class="container">
         <span class="gear-bar"></span>
-        <h1>SHOP BY BRAND SECTION</h1>
+        <h1 class="section-title">SHOP BY BRAND SECTION</h1>
         <P>Every major cricket brand , 100% original</P>
     </div>
 </div>
