@@ -211,7 +211,7 @@
 
 .bannerbottomsection {
     width: 100%;
-    background-color: var(--theme-color);
+    background-color: #06142B;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -447,7 +447,7 @@
 
 
 .section-title {
-    font-size: 44px;
+    font-size: 35px;
     font-weight: 800;
     line-height: 1.1;
     text-transform: uppercase;
@@ -611,7 +611,7 @@
 }
 
 .gearupsection h1 {
-    font-size: 46px;
+    font-size: 35px;
     font-weight: 800;
     line-height: 1.1;
     text-transform: uppercase;
@@ -1056,7 +1056,7 @@ color: black;
 
 .choosesection {
     padding: 30px 0;
-    background: #3c4ea2bd;
+    background: #06142B;
     margin-top: 30px;
 }
 
@@ -1281,11 +1281,11 @@ color: black;
 
 
 .blog-content span{
- font-size: 14px;
-    color: var(--tag-color);
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
+ font-size: 17px;
+ color: var(--tag-color);
+ display: block;
+ margin-bottom: 8px;
+ font-weight: 500;
 }
 
 .blog-content h3 {
@@ -1360,7 +1360,7 @@ padding: 30px 0px;
 }
 
 .downfootersction {
-    background: #3c4ea2d6;
+    background: #06142B;
     padding: 30px 0;
     color: #fff;
 }
@@ -1388,7 +1388,7 @@ padding: 30px 0px;
 
 .footer-about p {
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.8;
     margin: 0 0 20px;
 }
@@ -1406,7 +1406,7 @@ padding: 30px 0px;
 .footer-col a {
     display: block;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     line-height: 1.6;
     transition: 0.3s;
@@ -1417,7 +1417,7 @@ padding: 30px 0px;
 }
 
 .footer-about a {
-    margin-bottom: 12px;
+    margin-bottom: 3px;
     overflow-wrap: anywhere;
 }
 .footerstrip {
@@ -1503,4 +1503,12 @@ padding: 30px 0px;
 transform: scale(1.09);
 transition: all 0.2s ease ;
 border-radius: 10px;
+}
+.viwallbtn button:hover{
+    background-color: white;
+    color:var(--theme-color);
+    border: 1px solid var(--theme-color);
+}
+.mainblogs:hover{
+     transform: scale(1.01);
 }

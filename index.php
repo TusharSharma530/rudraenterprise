@@ -1143,7 +1143,7 @@
             <!-- Column 1 -->
             <div class="footer-col footer-about">
               
-                <h2>RUDRAENTERPRISE</h2>
+                <a href="javascript:">RUDRAENTERPRISE</a>
                 <p>
                     Cricket only, since 2012. 100% original bats
                     and gear from every major brand, shipped to
@@ -1200,11 +1200,11 @@
             <div class="footer-col">
                 <h3>GET TO KNOW US</h3>
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Franchise with us</a></li>
-                    <li><a href="#">Business and bulk pricing</a></li>
-                    <li><a href="#">Get sponsorship</a></li>
-                    <li><a href="#">FAQs</a></li>
+                    <li><a href="javascript:">About us</a></li>
+                    <li><a href="javascript:">Franchise with us</a></li>
+                    <li><a href="javascript:">Business and bulk pricing</a></li>
+                    <li><a href="javascript:">Get sponsorship</a></li>
+                    <li><a href="javascript:">FAQs</a></li>
                 </ul>
             </div>
 
@@ -1212,8 +1212,8 @@
         <div class="footerstrip">
     <div class="footer-left">
     <a>© 2012-2026 Cricketershop</a>
-    <a href="#">Terms and Conditions</a>
-    <a href="#">Privacy Policy</a>
+    <a href="javascript:">Terms and Conditions</a>
+    <a href="javascript:">Privacy Policy</a>
 
     <span class="companystrip">
         Design and Develop by
@@ -1224,9 +1224,9 @@
 </div>
 
     <div class="footer-social">
-    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    <a href="javascript:"><i class="fa-brands fa-instagram"></i></a>
+    <a href="javascript:"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="javascript:"><i class="fa-brands fa-youtube"></i></a>
 </div>
 </div>
    
