@@ -265,13 +265,14 @@
 }
 
 .gear-head-left p {
-    font-size: 16px;
+    /* font-size: 16px;
     font-weight: 500;
-    color: #000000ed;
+    color: #000000ed; */
     /* margin-bottom: 25px; */
 }
 
-/* ===== Gear up header extras (red line, links, button) ===== */
+
+
 
 
 /* Left Main Image */
@@ -440,8 +441,7 @@
     padding: 40px 0;
 }
 
-/* ===== Common heading class - Featured Products + Shop by Brand
-   Font size / weight yahin ek hi jagah se change karo ===== */
+
 .section-title {
     font-size: 44px;
     font-weight: 800;
@@ -580,11 +580,7 @@
     padding: 6px 9px;
     font-size: 15px;
 }
-/* brand heading ka style .section-title se aata hai */
 
-/* =========================================================
-   GEAR UP SECTION
-   ========================================================= */
 
 .gearupsection {
     padding: 55px 0;
@@ -624,7 +620,7 @@
     margin-bottom: 0;
 }
 
-/* SHOP EVERYTHING link - above the cards, right side */
+
 .gear-shop-all {
     display: inline-block;
     color: var(--theme-color);
@@ -665,7 +661,7 @@
     margin: 4px 0 18px;
 }
 
-/* SHOP BATS button - red */
+
 .gear-shop-bats {
     display: inline-block;
     background: var(--tag-color);
@@ -681,7 +677,7 @@
 }
 
 .gear-shop-bats:hover {
-    background: #b71f22;
+    background: var(--tag-color);
     color: #fff;
 }
 
@@ -726,7 +722,7 @@
     margin-top: 5px;
 }
 
-/* Navy circle arrow button */
+
 .gear-card-content i {
     width: 42px;
     height: 42px;
@@ -745,9 +741,6 @@
     background: var(--tag-color);
 }
 
-/* =========================================================
-   FEATURED PRODUCTS
-   ========================================================= */
 
 .featuredproducts {
     padding: 55px 0;
@@ -757,7 +750,9 @@
 .featured-head {
     margin-bottom: 30px;
 }
-
+.featured-head p{
+    color: white;
+}
 .featured-head .gear-bar {
     margin-bottom: 16px;
 }
@@ -807,7 +802,7 @@
     margin: 0 0 8px;
 }
 
-/* Product title - navy, 2 lines */
+
 .product-content p {
     font-size: 15px;
     font-weight: 600;
@@ -884,7 +879,6 @@
     margin-left: 0;
 }
 
-/* VIEW ALL button - colors kept same, size matched to reference */
 .viwallbtn {
     padding: 10px 0;
     text-align: center;
@@ -901,9 +895,7 @@
     text-align: center;
 }
 
-/* =========================================================
-   TRUST / FEATURES STRIP
-   ========================================================= */
+
 
 .featurestrip {
     display: block;
@@ -959,11 +951,250 @@
     margin: 0;
 }
 
-/* Brand section - red line above heading */
 .brandsection {
-    padding-top: 45px;
+    padding: 30px 0px;
 }
 
 .brandsection .gear-bar {
     margin-bottom: 16px;
+}
+.shopbrand {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+}
+
+.shopbrand .box {
+    height: 120px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.shopbrand .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.womensection{
+    display: flex;
+}
+
+.womensection {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.womenbox {
+    width: 50%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.womenbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(70%);
+    border-radius: 12px;
+}
+
+.womencontent {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.womencontent p {
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.womencontent h2 {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.arrow {
+    width: 45px;
+    height: 45px;
+    background-color: var(--theme-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.choosesection{
+    padding: 30px;
+}
+.gear-bar p{
+color: black;
+}
+
+.choosesection {
+    padding: 30px 0;
+    background: #3c4ea2bd;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* All Cards in One Row */
+
+.choosecards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.choose-card {
+    flex: 1;
+    min-width: 0;
+    padding: 22px 18px;
+    background: #f5f5f5;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.choose-no {
+    color: var(--tag-color);
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.choose-card h3 {
+    font-size: 24px;
+    margin: 15px 0 10px;
+    color: #222;
+}
+
+.choose-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777;
+    margin: 0 0 20px;
+}
+
+.choose-btn {
+    display: inline-block;
+    margin-top: auto;
+    padding: 11px 15px;
+    background: var(--theme-color);
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+/* Image Right Side */
+
+.choose-image {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.choose-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.testinomials{
+    padding: 30px;
+}
+.whywetitle{
+    color: white !important;
+}
+
+.testinomialcard {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.testi-card {
+    flex: 1;
+    padding: 25px;
+    background: #f5f5f5;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+/* Customer Name and Logo */
+
+.testi-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.testi-avatar {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    border-radius: 50%;
+    background: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.testi-info h4 {
+    font-size: 16px;
+    color: #222;
+    margin: 0 0 5px;
+}
+
+.testi-info span {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Stars */
+
+.testi-stars {
+    color: #f5a623;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+/* Review */
+
+.testi-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+.testitle{
+    padding-bottom: 10px !important;
 }

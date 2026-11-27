@@ -518,7 +518,7 @@
     </div>
 </div>
 
-<!-- TRUST / FEATURES STRIP -->
+
 <div class="featurestrip">
     <div class="container">
         <div class="featurestrip-row">
@@ -569,11 +569,476 @@
 
 <div class="brandsection">
     <div class="container">
-        <span class="gear-bar"></span>
-        <h1 class="section-title">SHOP BY BRAND SECTION</h1>
-        <P>Every major cricket brand , 100% original</P>
+         <div class="gear-head">
+            <div class="gear-head-left">
+                <span class="gear-bar"></span>
+                <h1 class="section-title">SHOP BY BRAND</h1>
+                <p>Every major cricket brand,100% original</p>
+            </div>
+            <a href="#" class="gear-shop-all">VIEW ALL BRANDS</a>
+        </div>
+         <div class="shopbrand">
+        <div class="box"><img src="assets/brand1.svg" alt="Brand 1"></div>
+        <div class="box"><img src="assets/brand2.svg" alt="Brand 2"></div>
+        <div class="box"><img src="assets/brand3.svg" alt="Brand 3"></div>
+        <div class="box"><img src="assets/brand4.svg" alt="Brand 4"></div>
+        <div class="box"><img src="assets/brand7.svg" alt="Brand 5"></div>
+        <div class="box"><img src="assets/brand8.svg" alt="Brand 6"></div>
+        <div class="box"><img src="assets/brand9.svg" alt="Brand 7"></div>
+
+        <div class="box"><img src="assets/brand10.svg" alt="Brand 8"></div>
+        <div class="box"><img src="assets/brand12.svg" alt="Brand 9"></div>
+        <div class="box"><img src="assets/brand13.svg" alt="Brand 10"></div>
+        <div class="box"><img src="assets/brand14.svg" alt="Brand 11"></div>
+        <div class="box"><img src="assets/brand15.webp" alt="Brand 12"></div>
+        <div class="box"><img src="assets/brand16.svg" alt="Brand 13"></div>
+        <div class="box"><img src="assets/brand6.jxl" alt="Brand 14"></div>
+        </div>
+    <div>
+    </div>
+</div>
+<div class="featuredproducts">
+    <div class="container">
+
+        <div class="featured-head">
+            <span class="gear-bar"></span>
+            <h1 class="section-title">NEW ARRIVALS</h1>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/ball2.webp" alt="MRF Cricket Bat">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>MRF</h3>
+
+                        <p>
+                            MRF Genius Grand Edition English Willow Cricket Bat
+                            designed for professional players.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹12,999</strong>
+                                <del>₹15,299</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/gloves2.webp" alt="Adidas Shoes">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>ADIDAS</h3>
+
+                        <p>
+                            Adidas Cricket Shoes with comfortable grip and
+                            lightweight design for players.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹3,999</strong>
+                                <del>₹4,699</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/shoes2.webp" alt="SG Gloves">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>SG</h3>
+
+                        <p>
+                            SG Cricket Batting Gloves with premium quality
+                            protection and comfortable fitting.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹1,499</strong>
+                                <del>₹1,799</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/shoes.webp" alt="SS Cricket Bat">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>SS</h3>
+
+                        <p>
+                            SS Ton English Willow Cricket Bat with excellent
+                            balance and powerful stroke performance.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹8,999</strong>
+                                <del>₹10,599</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/battingleg.webp" alt="Cricket Pads">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>KOOKABURRA</h3>
+
+                        <p>
+                            Premium cricket batting pads offering lightweight
+                            comfort and excellent protection.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹2,499</strong>
+                                <del>₹2,999</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/customize1.webp" alt="Cricket Kit Bag">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>SG</h3>
+
+                        <p>
+                            Spacious cricket kit bag with multiple compartments
+                            for easy equipment storage.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹2,999</strong>
+                                <del>₹3,499</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/battingleg.webp" alt="Cricket Ball">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>DUKES</h3>
+
+                        <p>
+                            Professional quality leather cricket ball for
+                            practice and competitive matches.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹899</strong>
+                                <del>₹1,099</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="featured-card">
+                    <div class="product-image">
+                        <img src="assets/helmet.webp" alt="Cricket Helmet">
+                    </div>
+
+                    <div class="product-content">
+                        <h3>SHREY</h3>
+
+                        <p>
+                            High quality cricket helmet with comfortable
+                            padding and protective face guard.
+                        </p>
+
+                        <div class="product-price">
+                            <div>
+                                <strong>₹3,499</strong>
+                                <del>₹4,099</del>
+                            </div>
+                            <span class="save-label">SAVE 15%</span>
+                        </div>
+
+                        <div class="product-bottom">
+                            <span class="stock-label">IN STOCK</span>
+                            <a href="#">
+                                VIEW <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="viwallbtn">
+            <button>VIEW ALL</button>
+        </div>
     </div>
 </div>
 
+<div class="juniorsection">
+    <div class="container">
+        <div class="womensection">
+
+            <div class="womenbox">
+                <img src="assets/women.jpg" alt="Women">
+                <div class="womencontent">
+                    <div>
+                        <p>SHOP THE RANGE</p>
+                        <h2>WOMEN</h2>
+                    </div>
+                    <a href="#" class="arrow">
+                        →
+                    </a>
+                </div>
+            </div>
+
+            <div class="womenbox">
+                <img src="assets/juniors.jpg" alt="Juniors">
+                <div class="womencontent">
+                    <div>
+                        <p>SHOP THE RANGE</p>
+                        <h2>JUNIORS</h2>
+                    </div>
+                    <a href="#" class="arrow">
+                        →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="choosesection">
+    <div class="container">
+
+        <div class="featured-head">
+            <span class="gear-bar"></span>
+            <h1 class="section-title whywetitle">WHY WE CHOOSE</h1>
+            <p>
+                We believe in delivering exceptional quality, unique styles
+                and a shopping experience that makes every moment special.
+            </p>
+        </div>
+
+        <div class="choosecards">
+
+            <div class="choose-card">
+                <span class="choose-no">01</span>
+                <h3>Premium Quality</h3>
+                <p>We offer carefully selected premium products with excellent quality, comfort and long-lasting value.</p>
+                <a href="#" class="choose-btn">HOW IT WORKS →</a>
+            </div>
+
+            <div class="choose-card">
+                <span class="choose-no">02</span>
+                <h3>Unique Collection</h3>
+                <p>Discover exclusive collections featuring modern trends, beautiful designs and unique styles.</p>
+                <a href="#" class="choose-btn">VISIT OUR STORE →</a>
+            </div>
+
+            <div class="choose-card">
+                <span class="choose-no">03</span>
+                <h3>Customer Satisfaction</h3>
+                <p>Your happiness matters to us. We focus on providing friendly service and a memorable experience.</p>
+                <a href="#" class="choose-btn">HOW IT WORKS →</a>
+            </div>
+
+            <!-- <div class="choose-image">
+                <img src="assets/whywechoos.webp" alt="Why Choose Us">
+            </div> -->
+
+        </div>
+
+    </div>
+</div>
+<div class="testinomials">
+    <div class="container">
+        <div class="featured-head">
+            <span class="gear-bar"></span>
+            <h1 class="section-title testitle">WHAT CRICKETERS SAY</h1>
+           
+<div class="testinomialcard">
+
+    <div class="testi-card">
+        <div class="testi-user">
+            <div class="testi-avatar">R</div>
+            <div class="testi-info">
+                <h4>Rahul Sharma</h4>
+                <span>15 November 2026</span>
+            </div>
+        </div>
+
+        <div class="testi-stars">★★★★★</div>
+
+        <p>
+            Amazing quality and beautiful collection.
+            I really loved the overall shopping experience!
+        </p>
+    </div>
+
+    <div class="testi-card">
+        <div class="testi-user">
+            <div class="testi-avatar">P</div>
+            <div class="testi-info">
+                <h4>Priya Verma</h4>
+                <span>18 November 2026</span>
+            </div>
+        </div>
+
+        <div class="testi-stars">★★★★★</div>
+
+        <p>
+            Excellent products with stylish designs.
+            Highly recommended for everyone!
+        </p>
+    </div>
+
+    <div class="testi-card">
+        <div class="testi-user">
+            <div class="testi-avatar">A</div>
+            <div class="testi-info">
+                <h4>Amit Kumar</h4>
+                <span>22 November 2026</span>
+            </div>
+        </div>
+
+        <div class="testi-stars">★★★★★</div>
+
+        <p>
+            Great service and premium quality.
+            Definitely looking forward to shopping again!
+        </p>
+    </div>
+
+</div>
+
+           
+        </div>
+     </div>
+</div>
+
+<div class="blogssection">
+    <div class="container">
+       <div class="gear-head">
+            <div class="gear-head-left">
+                <span class="gear-bar"></span>
+                <h1 class="section-title">SHOP BY BRAND</h1>
+                <p>Stories ,visits and gear guides from Cricketershop</p>
+            </div>
+            <a href="#" class="gear-shop-all">VIEW ALL STORES</a>
+        </div>
+        <div class="blogcards">
+            <div class="mainblogs">
+                <img src="assets/mainblogs.jpg">
+            </div>
+            
+            
+       </div>
+    </div>
+</div>
 
 </body>
